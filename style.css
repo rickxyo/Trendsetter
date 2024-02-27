@@ -21,13 +21,20 @@
   background-attachment: fixed;
 }
 
+/*//////////////////////// 
+SECTION HERO 
+/////////////////////////*/
+
 .hero {
   max-width: 56.9rem;
   margin: 0 auto;
 }
 
-.hero-text {
+.hero-title {
   font-family: "Playfair Display", serif;
   font-size: 4.5rem;
   color: #030712;
+}
+
+.hero-text {
 }
