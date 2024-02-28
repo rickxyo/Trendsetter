@@ -12,7 +12,7 @@
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 20%,
-      rgba(0, 0, 0, 1)
+      rgb(2, 2, 12)
     ),
     url(media/image\ 02.jpg);
   background-size: cover;
@@ -21,13 +21,59 @@
   background-attachment: fixed;
 }
 
+/*//////////////////////// 
+SECTION HERO 
+/////////////////////////*/
+
 .hero {
   max-width: 56.9rem;
   margin: 0 auto;
+  padding-bottom: 4.7rem;
+}
+
+.hero-title {
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Abril Fatface", serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #030712;
+  box-shadow: solid 1px rgb(39, 39, 39);
 }
 
 .hero-text {
-  font-family: "Playfair Display", serif;
-  font-size: 4.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.hero-btn {
+  /* margin-top: 2rem; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  background-color: #030712;
+  color: #f9fafb;
+  width: 20%;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* border-radius: 0.5rem; */
+}
+
+.hero-btn {
+  text-decoration: none;
+
+  cursor: default;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  color: #f9fafb;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #f9fafb;
   color: #030712;
 }
