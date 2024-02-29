@@ -1,7 +1,12 @@
+/*//////////////////////// 
+SECTION HERO 
+/////////////////////////*/
+
 .hero-section {
   /* FILL THE ENTIRE SECTION */
   width: 100vw;
   height: 100vh;
+  padding: 9.6rem;
 
   display: flex;
   justify-content: center;
@@ -20,10 +25,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-/*//////////////////////// 
-SECTION HERO 
-/////////////////////////*/
 
 .hero {
   max-width: 56.9rem;
@@ -70,10 +71,25 @@ SECTION HERO
 .hero-btn:link,
 .hero-btn:visited {
   color: #f9fafb;
+
+  transition: all 0.3s;
 }
 
 .hero-btn:hover,
 .hero-btn:active {
   background-color: #f9fafb;
   color: #030712;
+}
+
+/*//////////////////////// 
+SECTION ABOUT US
+/////////////////////////*/
+
+.about-us-section {
+  padding: 20rem;
+}
+
+.about-us-img {
+  width: 100%;
+  display: inline;
 }

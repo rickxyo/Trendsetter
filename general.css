@@ -26,3 +26,8 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
