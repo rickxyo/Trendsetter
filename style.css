@@ -86,10 +86,20 @@ SECTION ABOUT US
 /////////////////////////*/
 
 .about-us-section {
-  padding: 20rem;
+  padding: 9.5rem;
+}
+
+.about-us-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 2.9rem;
+}
+
+.about-us-text {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
 }
 
 .about-us-img {
-  width: 100%;
+  width: 110%;
   display: inline;
 }
