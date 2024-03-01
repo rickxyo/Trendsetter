@@ -22,6 +22,10 @@ SHADOW:
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
@@ -30,5 +34,9 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.3rem;
+  gap: 2.5rem;
+}
+
+.container {
+  /* padding: 4rem; */
 }
