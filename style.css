@@ -104,7 +104,3 @@ SECTION ABOUT US
   width: 110%;
   display: inline;
 }
-
-.grid-reverse {
-  direction: rtl;
-}
