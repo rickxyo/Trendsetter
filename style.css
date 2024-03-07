@@ -118,3 +118,17 @@ FORM
   height: 80vh;
   background-color: #030712;
 }
+
+.box-form {
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.label-name {
+  display: block;
+}
