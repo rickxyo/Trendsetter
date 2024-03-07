@@ -104,3 +104,17 @@ SECTION ABOUT US
   width: 110%;
   display: inline;
 }
+
+/*//////////////////////// 
+FORM
+/////////////////////////*/
+
+.section-form {
+  padding: 8.5rem;
+}
+
+.container-form {
+  width: 80vw;
+  height: 80vh;
+  background-color: #030712;
+}
