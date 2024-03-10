@@ -132,3 +132,14 @@ FORM
 .label-name {
   display: block;
 }
+
+/*//////////////////////// 
+FOOTER
+/////////////////////////*/
+
+.footer {
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+  background-color: #030712;
+}
