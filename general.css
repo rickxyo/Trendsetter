@@ -29,6 +29,9 @@ html {
 body {
   width: 100%;
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid {
@@ -37,6 +40,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
   gap: 2.5rem;
 }
+
+/* .grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
 
 .grid-reverse {
   direction: rtl;
