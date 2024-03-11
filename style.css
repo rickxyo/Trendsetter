@@ -164,11 +164,9 @@ FOOTER
   justify-content: space-evenly;
   align-items: center;
   justify-items: center;
-}
 
-/* .footer-box {
-  flex-grow: 1;
-} */
+  position: absolute;
+}
 
 .test {
   background-color: #030712;
